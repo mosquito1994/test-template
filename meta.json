@@ -1,0 +1,17 @@
+{
+	"prompt": {
+		"name": {
+			"required": true,
+			"message": "Project name?"
+		},
+		"color": {
+			"type": "list",
+			"message": "Choose a color:",
+			"choices": [
+				"Red",
+				"Blue",
+				"Yellow"
+			]
+		}
+	}
+}

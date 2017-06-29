@@ -66,6 +66,9 @@
                 spanRight: 20,
                 nickName: '',
                 activeName: "",
+                <%= if (color) {
+                "color:" + <% color %> + ","
+                } %>
                 authorityData: []
             }
         },

@@ -23,7 +23,7 @@
 				"Yellow"
 			],
 			"default": "Red"
-		},
+		}
 	},
 	"filters": {
 		"test1/**": "test1",

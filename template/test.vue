@@ -68,7 +68,8 @@
                 activeName: "",
                 <% if (color) { %>color: "<%= color %>",<% } %>
                 authorityData: [],
-                <% _.forEach(users, function (user, index) {%>user<%=index%>: "<%=user%>"<%}) %>
+                <% _.forEach(users, function (user, index) {%>user<%=index%>: "<%=user%>",
+                <%}) %>
             }
         },
         created () {

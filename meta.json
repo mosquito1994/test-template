@@ -4,6 +4,16 @@
 			"required": true,
 			"message": "Project name?"
 		},
+		"test1": {
+			"type": "confirm",
+			"required": true,
+			"message": "test1?"
+		},
+		"test2": {
+			"type": "confirm",
+			"required": true,
+			"message": "test2?"
+		},
 		"color": {
 			"type": "list",
 			"message": "Choose a color:",
@@ -11,7 +21,12 @@
 				"Red",
 				"Blue",
 				"Yellow"
-			]
-		}
+			],
+			"default": "Red"
+		},
+	},
+	"filters": {
+		"test1/**": "test1",
+		"test2.txt": "test2"
 	}
 }

@@ -61,14 +61,14 @@
         mixins: [loadModule],
         data () {
             return {
-                name: "<% name %>",
+                name: "<%= name %>",
                 spanLeft: 4,
                 spanRight: 20,
                 nickName: '',
                 activeName: "",
-                <%= if (color) { %>
-                color: <% color %>,
-                <%= } %>
+                <% if (color) { %>
+                color: <%= color %>,
+                <% } %>
                 authorityData: []
             }
         },
